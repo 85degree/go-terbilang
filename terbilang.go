@@ -11,6 +11,7 @@ import (
 	"strings"
 )
 
+// ToTerbilang ...
 // display from any number (e.g. 109209) to
 // seratus sembilan ribu dua ratus sembilan
 //
@@ -50,6 +51,7 @@ func ToTerbilang(num int) string {
 	return strings.TrimSpace(s)
 }
 
+// ToTerbilangRp ...
 // like ToTerbilang, but add "rupiah" as suffix.
 //
 // Example:
@@ -59,6 +61,7 @@ func ToTerbilangRp(num int) string {
 	return fmt.Sprintf("%s rupiah", ToTerbilang(num))
 }
 
+// ToTerbilangSuffix ...
 // like ToTerbilangRp, but you can add any word as suffix.
 //
 // Example:
