@@ -1,5 +1,7 @@
 # Terbilang in Go
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/apung/go-terbilang)](https://goreportcard.com/report/github.com/apung/go-terbilang)
+
 ## Synopsis
 Package terbilang is a package for styling int value to terbilang formated.
 
