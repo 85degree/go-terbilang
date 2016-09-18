@@ -1,9 +1,8 @@
 # Terbilang in Go
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/apung/go-terbilang)](https://goreportcard.com/report/github.com/apung/go-terbilang)
-
+[![Go Report Card](https://goreportcard.com/badge/github.com/apung/go-terbilang)](https://goreportcard.com/report/github.com/apung/go-terbilang) [![GoDoc](https://godoc.org/github.com/apung/go-terbilang?status.svg)](https://godoc.org/github.com/apung/go-terbilang)
 ## Synopsis
-Package terbilang is a package for styling int value to terbilang formated.
+Package terbilang is a package to transform int value into terbilang formated.
 
 ## Code Example
 
@@ -19,8 +18,8 @@ func main() {
 	var angka int
 	angka = 109209
 	fmt.Println(terbilang.ToTerbilang(angka))
-  fmt.Println(terbilang.ToTerbilangRp(angka))
-  fmt.Println(terbilang.ToTerbilangSuffix("ekor",angka))
+	fmt.Println(terbilang.ToTerbilangRp(angka))
+	fmt.Println(terbilang.ToTerbilangSuffix("ekor",angka))
 }
 ```
 
@@ -30,7 +29,7 @@ As easy as `go get -u github.com/apung/go-terbilang`
 
 ## Contributors
 
-You can always contribute this package and create pull requests. Just give me a note
+You can always contribute to this package and create pull requests. Just give me a note
 
 ## License
 
