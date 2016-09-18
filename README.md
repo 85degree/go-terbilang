@@ -35,3 +35,6 @@ You can always contribute to this package and create pull requests. Just give me
 ## License
 
 This package is released under the MIT License (MIT). Please read [LICENSE.md](https://github.com/apung/go-terbilang/LICENSE.md)
+
+## Support Us
+[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg)](https://gratipay.com/apung/)
