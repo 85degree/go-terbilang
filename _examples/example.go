@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/apung/go-terbilang"
+	"github.com/85degree/go-terbilang"
 )
 
 func main() {

@@ -2,7 +2,7 @@
 // formated.
 //
 // It forked from many sources for terbilang functions
-// by Abdul Gaffur A Dama https://github.com/apung
+// by Abdul Gaffur A Dama https://github.com/85degree
 // and licenced with MIT Licence
 package terbilang
 
@@ -16,8 +16,9 @@ import (
 // seratus sembilan ribu dua ratus sembilan
 //
 // Example:
-//  fmt.Println(terbilang.ToTerbilang(102209))
-//  // Output: seratus sembilan ribu dua ratus sembilan
+//
+//	fmt.Println(terbilang.ToTerbilang(102209))
+//	// Output: seratus sembilan ribu dua ratus sembilan
 func ToTerbilang(num int) string {
 	var s string
 	satuan := [12]string{"", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan", "sepuluh", "sebelas"}
@@ -55,8 +56,9 @@ func ToTerbilang(num int) string {
 // like ToTerbilang, but add "rupiah" as suffix.
 //
 // Example:
-//  fmt.Println(terbilang.ToTerbilangRp(102209))
-//  // Output: seratus sembilan ribu dua ratus sembilan rupiah
+//
+//	fmt.Println(terbilang.ToTerbilangRp(102209))
+//	// Output: seratus sembilan ribu dua ratus sembilan rupiah
 func ToTerbilangRp(num int) string {
 	return fmt.Sprintf("%s rupiah", ToTerbilang(num))
 }
@@ -65,8 +67,9 @@ func ToTerbilangRp(num int) string {
 // like ToTerbilangRp, but you can add any word as suffix.
 //
 // Example:
-//  fmt.Println(terbilang.ToTerbilangSuffix("ekor",102209))
-//  // Output: seratus sembilan ribu dua ratus sembilan ekor
+//
+//	fmt.Println(terbilang.ToTerbilangSuffix("ekor",102209))
+//	// Output: seratus sembilan ribu dua ratus sembilan ekor
 func ToTerbilangSuffix(suff string, num int) string {
 	return fmt.Sprintf("%s %s", ToTerbilang(num), suff)
 }
